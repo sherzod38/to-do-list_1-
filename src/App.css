@@ -73,12 +73,35 @@ button {
   padding: 5px 10px;
   cursor: pointer;
   background-color: #2196f3;
-  color: white;
+  color: black;
   border: none;
 }
 
 button:nth-child(5) {
   background-color: #f44336; /* O'chirish tugmasi uchun qizil */
+}
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #ff5722; /* To'q sariq rang */
+  color: #ffffff; /* Oq yozuv */
+  border: none;
+  border-radius: 4px; /* Bonus: yumaloq burchaklar */
+}
+
+.edit-button {
+  background-color: #000000; /* Qora rang saqlanadi */
+  color: #ffffff;
+}
+
+.save-button {
+  background-color: #4caf50; /* Yashil */
+  color: #ffffff;
+}
+
+.cancel-button {
+  background-color: #f44336; /* Qizil */
+  color: #ffffff;
 }
 
 @keyframes logo-spin {
